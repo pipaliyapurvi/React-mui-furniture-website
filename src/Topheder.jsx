@@ -17,7 +17,7 @@ function TopHeader() {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 8000,
+        speed: 4000,
         autoplaySpeed: 2000,
         cssEase: "linear"
     };
@@ -38,7 +38,7 @@ function TopHeader() {
                 </Box>
 
                 {/* Center: Sliding Text */}
-                <div className="slider-container">
+                <div className="slider" >
                     <Slider {...settings}>
                         <div>
                             <h5>Free shipping on order over $100!</h5>
