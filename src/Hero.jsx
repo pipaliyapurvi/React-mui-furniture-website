@@ -2,6 +2,7 @@ import Typography from "@mui/material/Typography";
 import React from "react";
 import Slider from "react-slick";
 import './App.css';
+import Button from "@mui/material/Button";
 
 function Hero() {
     const settings = {
@@ -26,6 +27,8 @@ function Hero() {
                         <Typography variant="h5">
                             Ut placerat orci nulla pellentesque posuere lorem ipsum dolor. A <br />condimentum vitae sapien pellentesque habitant morbi tristique<br /> senectus. Faucibus turpis in eu mi pellentesque posuere<br /> bibendum neque egestas. Maecenas accumsan lacus vel <br />facilisis volutpat.
                         </Typography>
+                        <Button className="btnn">Shop Now</Button>
+
                     </div>
                     <div className="img-2">
                         <img
