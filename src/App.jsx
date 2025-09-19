@@ -4,6 +4,7 @@ import Topheder from './Topheder';
 import Header from './Header';
 import Hero from './Hero';
 import About from './About';
+import Main from './Main'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <About></About>
+      <Main></Main>
     </>
   );
 }
