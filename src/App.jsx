@@ -4,7 +4,8 @@ import Topheder from './Topheder';
 import Header from './Header';
 import Hero from './Hero';
 import About from './About';
-import Main from './Main'
+import Main from './Main';
+import Img1 from './Img1';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero></Hero>
       <About></About>
       <Main></Main>
+      <Img1></Img1>
     </>
   );
 }

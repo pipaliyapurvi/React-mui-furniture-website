@@ -30,10 +30,10 @@ function Header() {
           </Typography>
           {/* <Button color="inherit">Login</Button> */}
           <Box className="hedicon">
-            <SearchIcon></SearchIcon>
-            <PermIdentityIcon></PermIdentityIcon>
-            <ShoppingCartIcon></ShoppingCartIcon>
-            <MenuIcon></MenuIcon>
+            <Box className="icon-1"><SearchIcon></SearchIcon></Box>
+            <Box className="icon-2"><PermIdentityIcon></PermIdentityIcon></Box>
+            <Box className="icon-3"><ShoppingCartIcon></ShoppingCartIcon></Box>
+            <Box className="icon-4">  <MenuIcon></MenuIcon></Box>
           </Box>
 
         </Toolbar>

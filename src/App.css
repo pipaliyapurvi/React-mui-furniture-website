@@ -135,6 +135,22 @@
 
 }
 
+.hedicon .icon-1:hover {
+  color: #DD7210;
+}
+
+.hedicon .icon-2:hover {
+  color: #DD7210;
+}
+
+.hedicon .icon-3:hover {
+  color: #DD7210;
+}
+
+.hedicon .icon-4:hover {
+  color: #DD7210;
+}
+
 .img-3 {
   position: relative;
 }
@@ -391,4 +407,307 @@
   background-color: #2B2B2B;
   height: 700px;
   width: 100%;
+}
+
+.main h6 {
+  text-align: center;
+  color: #DD7210;
+  padding-top: 65px;
+
+  font-size: 16px;
+  font-weight: 400 !important;
+  font-family: system-ui;
+}
+
+.main h3 {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-family: auto;
+  font-size: 54px;
+  padding-top: 10px;
+}
+
+.opestion {
+  display: flex;
+  gap: 100px;
+  color: gray;
+  padding-top: 20px;
+  padding-left: 82px;
+
+}
+
+.opestion .ops-1 span {
+  position: relative;
+
+  top: -77%;
+  padding-left: 171px;
+}
+
+.opestion .ops-2 span {
+  position: relative;
+
+  top: -77%;
+  padding-left: 175px;
+}
+
+.opestion .ops-3 span {
+  position: relative;
+
+  top: -77%;
+  padding-left: 176px;
+}
+
+.opestion .ops-4 span {
+  position: relative;
+
+  top: -77%;
+  padding-left: 190px;
+}
+
+
+.opestion .ops-1 h5 {
+  font-family: none;
+}
+
+.opestion .ops-2 h5 {
+  font-family: none;
+}
+
+.opestion .ops-3 h5 {
+  font-family: none;
+}
+
+.opestion .ops-4 h5 {
+  font-family: none;
+}
+
+.opestion .ops-1 {
+  position: relative;
+}
+
+.opestion .ops-1:hover {
+  color: white;
+}
+
+.opestion .ops-1::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+
+  background-color: white;
+  bottom: 20px;
+  left: 0;
+  transition: width 0.4s ease-in-out;
+
+}
+
+.opestion .ops-1:hover::after {
+  width: 100%;
+}
+
+.opestion .ops-2 {
+  position: relative;
+}
+
+.opestion .ops-2:hover {
+  color: white;
+}
+
+.opestion .ops-2::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  bottom: 20px;
+  left: 0;
+  transition: width 0.4s ease-in-out;
+}
+
+.opestion .ops-2:hover::after {
+  width: 100%;
+}
+
+.opestion .ops-3 {
+  position: relative;
+}
+
+.opestion .ops-3:hover {
+  color: white;
+}
+
+.opestion .ops-3::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  bottom: 20px;
+  left: 0;
+  transition: width 0.4s ease-in-out;
+}
+
+.opestion .ops-3:hover::after {
+  width: 100%;
+}
+
+.opestion .ops-4 {
+  position: relative;
+}
+
+.opestion .ops-4:hover {
+  color: white;
+}
+
+.opestion .ops-4::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  bottom: 20px;
+  left: 0;
+  transition: width 0.4s ease-in-out;
+
+}
+
+.opestion .ops-4:hover::after {
+  width: 100%;
+}
+
+.opestion .ops-2:hover {
+  color: white;
+}
+
+.opestion .ops-3:hover {
+  color: white;
+}
+
+.opestion .ops-4:hover {
+  color: white;
+}
+
+.product-img {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 300px;
+}
+
+.product-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+
+}
+
+.product-img .main-img {
+  z-index: 1;
+  opacity: 1;
+}
+
+.product-img .hover-img {
+  z-index: 2;
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+/* On hover, make the main image disappear and show the hover image */
+.product-img:hover .main-img {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.product-img:hover .hover-img {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.product-img1 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 300px;
+
+
+}
+
+.product-img1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+
+}
+
+.product-img1 .main-img-1 {
+  z-index: 1;
+  opacity: 1;
+}
+
+.product-img1 .hover-img-1 {
+  z-index: 2;
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+/* On hover, make the main image disappear and show the hover image */
+.product-img1:hover .main-img-1 {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.product-img1:hover .hover-img-1 {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.product-img2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 300px;
+}
+
+.product-img2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  padding-right: 50px;
+
+}
+
+.product-img2 .main-img-2 {
+  z-index: 1;
+  opacity: 1;
+}
+
+.product-img2 .hover--2 {
+  z-index: 2;
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+/* On hover, make the main image disappear and show the hover image */
+.product-img2:hover .main-img-2 {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.product-img2:hover .hover-img-2 {
+  opacity: 1;
+  transform: translateX(0);
 }
