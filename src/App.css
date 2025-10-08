@@ -891,7 +891,7 @@
 
 /* ==========outoplayslider end=========== */
 .customer {
-  background-color: #2B2B2B;
+  background-color: black;
   width: 100%;
   height: 650px;
 }
@@ -986,16 +986,30 @@
   content: "";
   position: absolute;
   top: 0;
-  right: -100%;
+  left: -100%;
   width: 100%;
   height: 100%;
-  background-color: #2b2b2b;
-  /* change as needed */
-  transition: right 0.5s ease-in-out;
+  background-color: #2B2B2B;
+  transition: left 0.5s ease-in-out;
   z-index: 2;
 
 }
 
 .img-container:hover::before {
-  right: 0;
+  left: 0;
+}
+
+
+
+.hover-text {
+  color: black;
+  margin-top: -67px;
+  z-index: 999;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: auto;
+
 }
