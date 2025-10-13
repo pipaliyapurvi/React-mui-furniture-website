@@ -10,6 +10,7 @@ import Img2 from './Img2';
 import Outoplayslider from './Outoplayslider';
 import Customers from './Customers'
 import Hovercard from './Hovercard';
+import ShopCategory from './ShopCategory'
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       <Outoplayslider></Outoplayslider>
       <Customers></Customers>
       <Hovercard></Hovercard>
-      
+      <ShopCategory></ShopCategory>
+
     </>
   );
 }

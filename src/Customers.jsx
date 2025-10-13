@@ -7,7 +7,7 @@ import StarBorderIcon from '@mui/icons-material/StarBorder';
 
 function Customers() {
     var settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
