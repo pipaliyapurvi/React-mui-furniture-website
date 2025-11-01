@@ -2,6 +2,14 @@ import Box from '@mui/material/Box'
 import React from 'react'
 import Typography from '@mui/material/Typography'
 import Slider from "react-slick";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
 
 
 function main() {
