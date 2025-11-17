@@ -109,6 +109,8 @@
   margin-left: 20px;
 }
 
+/* =====header end========== */
+
 .img-1 {
   position: relative;
 }
@@ -365,6 +367,8 @@
   color: #DD7210 !important;
 
 }
+
+
 
 /* =======hero section end========== */
 .about {
@@ -1067,7 +1071,7 @@
 /* ===========hovercard end =========== */
 .shop {
   background-color: #2B2B2B;
-  width: 1449px !important;
+
   height: 740px;
   background-image: url('https://wdtteapoy.wpengine.com/wp-content/uploads/2024/05/body-bg.png');
 }
@@ -1091,7 +1095,7 @@
 
 .border {
   border: 1px solid #5e5e5e;
-  width: 170% !important;
+  width: 130% !important;
 
   margin-left: 40px !important;
 }
@@ -1113,10 +1117,9 @@
 }
 
 .shop img {
-  width: 80% !important;
+  width: 100% !important;
   height: 500px !important;
-  margin-left: 340px;
-  margin-right: 10px;
+  margin-left: 135px;
 }
 
 /* ==========shopcategory end========= */
@@ -1185,8 +1188,8 @@
 .footer {
   background-color: black;
   background-image: url('https://wdtteapoy.wpengine.com/wp-content/uploads/2024/05/body-bg.png') !important;
-  width: 100% !important;
-  height: 300px;
+
+  height: 250px;
 }
 
 .footer img {
@@ -1198,7 +1201,6 @@
 .pg-1 img {
   width: 100%;
   height: 450px;
-
 }
 
 .pg-1::before {
@@ -1212,7 +1214,6 @@
   top: 131px;
 }
 
-
 .pg-1 h2 {
   text-align: center;
   margin-top: -273px;
@@ -1221,9 +1222,6 @@
   position: relative;
   font-family: serif;
   font-weight: 500;
-
-
-
 }
 
 .subtitle1 {
@@ -1242,13 +1240,11 @@
   color: white;
   text-align: center;
   justify-content: center;
-
   font-family: serif !important;
   z-index: 9;
   text-decoration: none;
   z-index: 3;
   margin-bottom: 158px;
-
 }
 
 .subtitle1 a:hover {
@@ -1262,7 +1258,6 @@
   width: 100%;
   height: 600px;
 }
-
 .contact h6 {
   color: #DD7210;
   font-size: 16px;
@@ -1271,23 +1266,35 @@
   text-align: center;
   padding-top: 70px;
 }
-
-
-
 .contact h2 {
   color: white;
   text-align: center;
   font-family: auto;
   font-weight: 500;
   margin-bottom: 20px;
-
 }
-
 .contact h5 {
   color: #A9A9A9;
   font-size: 16px;
   font-weight: 500 !important;
   font-family: system-ui;
   text-align: center;
+}
+@media (max-width:1200px) {
+  
+
 
 }
+
+@media (min-width:993px) and (max-width:1140px) {}
+
+@media (max-width:992px) {}
+
+
+@media (min-width:768px) and (max-width:960px) {}
+
+@media (max-width: 768px) {}
+
+@media (min-width:577px) and (max-width:720px) {}
+
+@media (max-width: 576px) {}

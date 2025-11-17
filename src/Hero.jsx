@@ -38,6 +38,7 @@ function Hero() {
                         <Typography variant="h2">Discover Furniture's For Living</Typography>
                         <Typography variant="h5">
                             Consectetur a erat nam at. Facilisis magna etiam tempor orci.<br /> Sem et tortor consequat id. Fermentum egestas tellus. Nunc eu <br />hendrerit turpis. Fusce non lectus sem. In pellentesque nunc non<br /> Donec pretium gravida neque et placerat.                        </Typography>
+                        <Button className="btnn">Shop Now</Button>
                     </div>
                     <div className="img-3">
                         <img
@@ -49,6 +50,7 @@ function Hero() {
                         <Typography variant="h5">
                             Feugiat pretium nibh ipsum consequat nisl vel pretium lectus<br /> quam. Aliquam ut porttitor leo a diam sollicitudin. Nam at lectus<br /> urna duis convallis. At urna condimentum pretium lectus<br /> pretium lectus quam mattis pellentesque id nibh tortor id.
                         </Typography>
+                        <Button className="btnn">Shop Now</Button>
                     </div>
                 </Slider >
             </div >

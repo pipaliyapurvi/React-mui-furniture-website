@@ -12,7 +12,7 @@ const Footer = () => {
         <Box className="footer" sx={{ color: '#fff', py: 6, px: 4 }}>
             <Grid container spacing={4}>
                 {/* Part 1: About */}
-                <Grid item xs={12} sm={6} md={2.4}>
+                <Grid item xs={12} sm={6} md={2}>
                     <img src="	https://wdtteapoy.wpengine.com/wp-content/themes/teapoy/assets/images/light-logo.svg" alt="" />
 
                     <Typography variant="h6" sx={{ fontFamily: 'serif' }}>
@@ -30,7 +30,7 @@ const Footer = () => {
                 </Grid>
 
                 {/* Part 2: Useful Links */}
-                <Grid item xs={12} sm={6} md={4} sx={{ marginLeft: '90px' }} >
+                <Grid item xs={12} sm={6} md={4} sx={{ marginLeft: '25px' }} >
                     <Typography variant="h6" gutterBottom sx={{ fontFamily: 'serif' }}>
                         Useful Links
                     </Typography>
@@ -40,9 +40,8 @@ const Footer = () => {
                     <Link href="#" color="inherit" display="block" sx={{ textDecoration: 'none', paddingBottom: '5px', paddingTop: '10px' }}>Services Offered</Link>
                     <Link href="#" color="inherit" display="block" sx={{ textDecoration: 'none', paddingBottom: '5px', paddingTop: '10px' }}>Product Catalog</Link>
                 </Grid>
-
                 {/* Part 3: Information */}
-                <Grid item xs={12} sm={6} md={2.4} sx={{ marginLeft: '65px' }}>
+                <Grid item xs={12} sm={6} md={2.4} sx={{ marginLeft: '25px' }}>
                     <Typography variant="h6" gutterBottom sx={{ fontFamily: 'serif' }}>
                         Information
                     </Typography>
@@ -52,9 +51,8 @@ const Footer = () => {
                     <Link href="#" color="inherit" display="block" sx={{ textDecoration: 'none', paddingBottom: '5px', paddingTop: '10px' }}>Sizing Guide</Link>
                     <Link href="#" color="inherit" display="block" sx={{ textDecoration: 'none', paddingBottom: '5px', paddingTop: '10px' }}>Accessibility</Link>
                 </Grid>
-
                 {/* Part 4: Support */}
-                <Grid item xs={12} sm={6} md={2.4} sx={{ marginLeft: '65px' }}>
+                <Grid item xs={12} sm={6} md={2.4} sx={{ marginLeft: '25px' }}>
                     <Typography variant="h6" gutterBottom sx={{ fontFamily: 'serif' }}>
                         Support
                     </Typography>
@@ -64,10 +62,8 @@ const Footer = () => {
                     <Link href="#" color="inherit" display="block" sx={{ textDecoration: 'none', paddingBottom: '5px', paddingTop: '10px' }}>App Download</Link>
                     <Link href="#" color="inherit" display="block" sx={{ textDecoration: 'none', paddingBottom: '5px', paddingTop: '10px' }}>Advertisements</Link>
                 </Grid>
-
                 {/* Part 5: Social Media */}
-
-                <Grid item xs={12} sm={6} md={4} sx={{ marginLeft: '30px' }}>
+                <Grid item xs={12} sm={6} md={4} >
                     <Typography variant="h6" gutterBottom sx={{ fontFamily: 'serif' }}>
                         Follow Us @Instagram
                     </Typography>
