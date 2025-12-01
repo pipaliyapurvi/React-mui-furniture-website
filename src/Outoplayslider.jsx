@@ -4,11 +4,6 @@ import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box';
 import Button from "@mui/material/Button";
 import Grid from '@mui/material/Grid';
-
-
-
-
-
 function Outoplayslider() {
     const settings = {
         dots: false,

@@ -63,7 +63,7 @@ const Footer = () => {
                     <Link href="#" color="inherit" display="block" sx={{ textDecoration: 'none', paddingBottom: '5px', paddingTop: '10px' }}>Advertisements</Link>
                 </Grid>
                 {/* Part 5: Social Media */}
-                <Grid item xs={12} sm={6} md={4} >
+                <Grid item xs={12} sm={6} md={4} className='social-media'>
                     <Typography variant="h6" gutterBottom sx={{ fontFamily: 'serif' }}>
                         Follow Us @Instagram
                     </Typography>
