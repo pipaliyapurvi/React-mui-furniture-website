@@ -30,7 +30,7 @@ const Footer = () => {
                 </Grid>
 
                 {/* Part 2: Useful Links */}
-                <Grid item xs={12} sm={6} md={4} sx={{ marginLeft: '25px' }} >
+                <Grid item xs={12} sm={6} md={4} sx={{ marginLeft: '20px' }} >
                     <Typography variant="h6" gutterBottom sx={{ fontFamily: 'serif' }}>
                         Useful Links
                     </Typography>
@@ -41,7 +41,7 @@ const Footer = () => {
                     <Link href="#" color="inherit" display="block" sx={{ textDecoration: 'none', paddingBottom: '5px', paddingTop: '10px' }}>Product Catalog</Link>
                 </Grid>
                 {/* Part 3: Information */}
-                <Grid item xs={12} sm={6} md={2.4} sx={{ marginLeft: '25px' }}>
+                <Grid item xs={12} sm={6} md={2.4} sx={{ marginLeft: '20px' }}>
                     <Typography variant="h6" gutterBottom sx={{ fontFamily: 'serif' }}>
                         Information
                     </Typography>
@@ -52,7 +52,7 @@ const Footer = () => {
                     <Link href="#" color="inherit" display="block" sx={{ textDecoration: 'none', paddingBottom: '5px', paddingTop: '10px' }}>Accessibility</Link>
                 </Grid>
                 {/* Part 4: Support */}
-                <Grid item xs={12} sm={6} md={2.4} sx={{ marginLeft: '25px' }}>
+                <Grid item xs={12} sm={6} md={2.4} sx={{ marginLeft: '20px' }}>
                     <Typography variant="h6" gutterBottom sx={{ fontFamily: 'serif' }}>
                         Support
                     </Typography>
