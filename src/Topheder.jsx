@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 
 function Topheder() {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,

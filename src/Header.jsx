@@ -57,7 +57,7 @@ function Header({ children }) {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/shop" >Shop</Link>s
+          <Link to="/shop" >Shop</Link>
         </li>
         <li>
           <Link to="/collection" >Collection</Link>
